@@ -1,0 +1,119 @@
+
+body {
+  margin: 0;
+  font-family: "Times New Roman";	 
+}
+
+
+.wrapper {
+    margin: 10px;
+    padding: 10px;
+}
+
+.clearfix {
+    height: 10px;
+    background: #fff;
+    clear: both;
+    height: 0;
+}
+
+  .left {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .left .photo {
+    margin-bottom: 15px;
+  }
+  .left .photo .photo-info .photo-name {
+    font-size: 60px;
+  }
+  .left .photo .photo-info .photo-surname {
+    font-size: 69px;
+  }
+  .left .photo .photo-info .photo-text {
+    font-size: 30px;
+  }
+  .left .profile .title .title-text,
+  .left .contact .title .title-text,
+  .left .skills .title .title-text,
+  .left .education .title .title-text,
+  .left .experience .title .title-text,
+  .left .software .title .title-text {
+    font-size: 42px;
+  }
+  .right {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .right .education .article .info .text .text1 .text-title,
+  .right .experience .article .info .text .text1 .text-title {
+    font-size: 17px;
+  }
+  .right .education .article .info .text .text1 .text-time,
+  .right .experience .article .info .text .text1 .text-time {
+    font-size: 17px;
+  }
+}
+
+.left {
+    float: left;
+    width: 36.5%;
+    padding: 70px 25px 30px 40px;
+}
+.left .photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 76px;
+}
+.left .photo .photo-img {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid #3d6cb0;
+    height: 240px;
+    width: 240px;
+    border-radius: 120px;
+    background:  url(img/profile.png) no-repeat;
+    background-position: 10px 10px;
+    background-size: 1660px;
+}
+.left .photo .photo-info {
+    position: relative;
+    width: 94%;
+    margin: 33px auto 30px auto;
+    height: auto;
+}
+.left .photo .photo-info .name {
+    width: 100%;
+    height: auto;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 47px;
+    text-align: center;
+}
+.left .photo .photo-info .surname {
+    font-family: "Times New Roman";
+    width: 100%;
+    height: auto;
+    font-size: 65px;
+    line-height: 53px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.left .photo .photo-info .photo-text {
+    font-family: "Times New Roman";
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
